@@ -110,7 +110,6 @@ class Connector:
 
 
 g1 = AndGate('G1')
-# print(g1.getOutput())
 g2 = AndGate('G2')
 g3 = OrGate('G3')
 g4 = NotGate('G4')
@@ -120,3 +119,4 @@ c3 = Connector(g3, g4)
 print(g4.getOutput())
 
 
+新发现！！！当我g1的pinA输入0时不需要输入pinB，可以直接得到g1的结果为0.难道是python版本的问题吗！
